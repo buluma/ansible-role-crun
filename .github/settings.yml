@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install crun on your system.
+  homepage: https://buluma.github.io/
+  topics: crun, ansible, molecule, tox, playbook, hacktoberfest

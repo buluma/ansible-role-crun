@@ -1,0 +1,34 @@
+---
+galaxy_info:
+  standalone: true
+  role_name: crun
+  author: buluma
+  description: Ansible Role for crun Installation
+  company: ShadowNet
+  license: Apache-2.0
+  min_ansible_version: "4.10"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - jammy
+        - focal
+        - bionic
+    - name: EL
+      versions:
+        - "9"
+        - "8"
+        - "7"
+    - name: opensuse
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - bullseye
+        - buster
+    - name: Fedora
+      versions:
+        - "36"
+        - "35"
+  galaxy_tags:
+    - system
+dependencies: []
