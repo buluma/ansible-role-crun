@@ -17,17 +17,14 @@ galaxy_info:
         - "9"
         - "8"
         - "7"
-    - name: opensuse
-      versions:
-        - all
     - name: Debian
       versions:
-        - bullseye
-        - bookworm
+        - all
     - name: Fedora
       versions:
         - "36"
         - "35"
   galaxy_tags:
+    - crun
     - system
 dependencies: []

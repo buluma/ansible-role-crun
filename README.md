@@ -1,50 +1,90 @@
-# Ansible Role for crun
+# [crun](#crun)
 
-<a href="https://buluma.com" title="AlviStack" target="_blank"><img src="/buluma.svg" height="75" alt="AlviStack"></a>
+Ansible Role for crun Installation
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/buluma/ansible-role-crun/master)](https://gitlab.com/buluma/ansible-role-crun/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/tags)
-[![GitHub license](https://img.shields.io/github/license/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-buluma.crun-blue.svg)](https://galaxy.ansible.com/buluma/crun)
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-crun/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-crun/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-crun/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-crun)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/crun)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/crun)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/pulls/)|
 
-Ansible Role for crun Installation.
+## [Example Playbook](#example-playbook)
 
-## Requirements
+This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
+```yaml
+---
+- name: converge | all
+  hosts: all
+  remote_user: root
+  become: true
+  gather_facts: true
+  tasks:
+    - name: include role
+      ansible.builtin.include_role:
+        name: buluma.crun
+      tags: buluma.crun
+```
 
-This role require Ansible community package 4.10 or higher.
+The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
+```yaml
+---
+- name: Prepare
+  hosts: all
+  become: yes
+  gather_facts: no
 
-This role was designed for:
+  roles:
+    - role: buluma.bootstrap
+```
 
-  - Ubuntu 18.04, 20.04, 22.04, 22.10
-  - CentOS 7, 8 Stream, 9 Stream
-  - openSUSE Leap 15.3, Leap 15.4, Tumbleweed
-  - Debian 10, 11, Testing
-  - Fedora 35, 36, 37, Rawhide
-  - RHEL 7, 8, 9
 
-## Role Variables
 
-[defaults/main.yml](defaults/main.yml)
+## [Requirements](#requirements)
 
-## Dependencies
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-crun/blob/main/requirements.txt).
 
-[ansible-galaxy-requirements.yml](ansible-galaxy-requirements.yml)
+## [Status of used roles](#status-of-requirements)
 
-## Example Playbook
+The following roles are used to prepare a system. You can prepare your system in another way.
 
-[molecule/default/converge.yml](molecule/default/converge.yml)
+| Requirement | GitHub | GitLab |
+|-------------|--------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 
-This role could simply deploy to `localhost` as below:
+## [Context](#context)
 
-    molecule converge -s default
+This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
-## License
+Here is an overview of related roles:
 
-  - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-crun/png/requirements.png "Dependencies")
 
-## Author Information
+## [Compatibility](#compatibility)
 
-  - Wong Hoi Sing Edison
-      - <https://twitter.com/hswong3i>
-      - <https://github.com/hswong3i>
+This role has been tested on these [container images](https://hub.docker.com/u/buluma):
+
+|container|tags|
+|---------|----|
+|ubuntu|jammy, focal, bionic|
+|el|9, 8, 7|
+|debian|all|
+|fedora|36, 35|
+
+The minimum version of Ansible required is 4.10, tests have been done to:
+
+- The previous version.
+- The current version.
+- The development version.
+
+
+If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-crun/issues)
+
+## [Changelog](#changelog)
+
+[Role History](https://github.com/buluma/ansible-role-crun/blob/master/CHANGELOG.md)
+
+## [License](#license)
+
+Apache-2.0
+
+## [Author Information](#author-information)
+
+[buluma](https://buluma.github.io/)

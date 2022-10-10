@@ -9,3 +9,6 @@
         cmd: crun --version
       register: result
       changed_when: result is not succeeded
+
+    - print version
+      ansible.builtin.debug: var=result
