@@ -9,7 +9,7 @@
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
-   sodipodi:docname="alvistack-icon-color.svg"
+   sodipodi:docname="buluma-icon-color.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@
        id="g190"
        transform="matrix(0.61538462,0,0,0.61538462,135.91602,123.09695)"
        style="stroke-width:1.625"
-       inkscape:export-filename="/home/hswong3i/Documents/alvistack/ansible-collection-kubernetes/docs/images/icon/color/alvistack-icon-color.png"
+       inkscape:export-filename="/home/hswong3i/Documents/buluma/ansible-collection-kubernetes/docs/images/icon/color/buluma-icon-color.png"
        inkscape:export-xdpi="95.999992"
        inkscape:export-ydpi="95.999992">
       <path

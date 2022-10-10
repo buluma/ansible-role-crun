@@ -1,11 +1,11 @@
 # Ansible Role for crun
 
-<a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
+<a href="https://buluma.com" title="AlviStack" target="_blank"><img src="/buluma.svg" height="75" alt="AlviStack"></a>
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-crun/master)](https://gitlab.com/alvistack/ansible-role-crun/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-crun.svg)](https://github.com/alvistack/ansible-role-crun/tags)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-crun.svg)](https://github.com/alvistack/ansible-role-crun/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.crun-blue.svg)](https://galaxy.ansible.com/alvistack/crun)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/buluma/ansible-role-crun/master)](https://gitlab.com/buluma/ansible-role-crun/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/tags)
+[![GitHub license](https://img.shields.io/github/license/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-buluma.crun-blue.svg)](https://galaxy.ansible.com/buluma/crun)
 
 Ansible Role for crun Installation.
 

@@ -7,4 +7,4 @@
     - name: include role
       ansible.builtin.include_role:
         name: ansible-role-crun
-      tags: alvistack.crun
+      tags: buluma.crun
