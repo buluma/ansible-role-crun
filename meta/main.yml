@@ -23,7 +23,7 @@ galaxy_info:
     - name: Debian
       versions:
         - bullseye
-        - buster
+        - bookworm
     - name: Fedora
       versions:
         - "36"

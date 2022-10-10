@@ -39,12 +39,16 @@
 #         - "."
 #       skip: true
 
+- debug: var=ansible_os_family
+- debug: var=ansible_pkg_mgr
+
+
+# - fail:
 - name: Update cache
   ansible.builtin.apt:
     update_cache: yes
   run_once: yes
-  when:
-    - ansible_os_family == "Debian"
+  when: ansible_pkg_mgr == "apt"
 
 - name:  Install Crun
   ansible.builtin.package:
