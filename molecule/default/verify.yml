@@ -10,5 +10,5 @@
       register: result
       changed_when: result is not succeeded
 
-    - print version
+    - name: print version
       ansible.builtin.debug: var=result
