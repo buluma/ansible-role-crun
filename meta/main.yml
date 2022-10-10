@@ -1,6 +1,5 @@
 ---
 galaxy_info:
-  standalone: true
   role_name: crun
   author: buluma
   description: Ansible Role for crun Installation
