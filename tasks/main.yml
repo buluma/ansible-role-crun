@@ -48,7 +48,7 @@
     update_cache: yes
   when: ansible_pkg_mgr == "apt"
 
-- name:  Install Crun
+- name: Install Crun
   ansible.builtin.package:
     name: crun
     state: present
