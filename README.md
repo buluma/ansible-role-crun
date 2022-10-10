@@ -4,7 +4,7 @@ Ansible Role for crun Installation
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-crun/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-crun/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-crun/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-crun)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/crun)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/crun)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-crun/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-crun/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-crun/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-crun)|[![quality](https://img.shields.io/ansible/quality/60621)](https://galaxy.ansible.com/buluma/crun)|[![downloads](https://img.shields.io/ansible/role/d/60621)](https://galaxy.ansible.com/buluma/crun)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -16,11 +16,8 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
   remote_user: root
   become: true
   gather_facts: true
-  tasks:
-    - name: include role
-      ansible.builtin.include_role:
-        name: buluma.crun
-      tags: buluma.crun
+  roles:
+    - role: buluma.crun
 ```
 
 The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
