@@ -1,10 +1,10 @@
-# [Ansible role crun](#crun)
+# Ansible role [crun](https://galaxy.ansible.com/ui/standalone/roles/buluma/crun/documentation)
 
 Ansible Role for crun Installation
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-crun/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-crun/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-crun/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-crun/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-crun.svg)](https://github.com/buluma/ansible-role-crun/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/crun)](https://galaxy.ansible.com/ui/standalone/roles/buluma/crun/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
