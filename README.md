@@ -66,7 +66,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|jammy, focal, bionic|
 |[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|9, 8, 7|
 |[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
-|[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|36, 35|
+|[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 
 The minimum version of Ansible required is 4.10, tests have been done to:
 
