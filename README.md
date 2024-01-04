@@ -63,8 +63,8 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|jammy, focal, bionic|
-|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|9, 8, 7|
+|[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|jammy, focal|
+|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|9, 8|
 |[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
 |[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 
