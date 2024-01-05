@@ -7,6 +7,7 @@
 **Merged pull requests:**
 
 - Bump actions/checkout from 3 to 4 [\#8](https://github.com/buluma/ansible-role-crun/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#7](https://github.com/buluma/ansible-role-crun/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.3.0](https://github.com/buluma/ansible-role-crun/tree/0.3.0) (2024-01-04)
 
