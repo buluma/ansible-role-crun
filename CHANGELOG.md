@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-crun/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.3.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#8](https://github.com/buluma/ansible-role-crun/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [0.3.0](https://github.com/buluma/ansible-role-crun/tree/0.3.0) (2024-01-04)
+
+[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.2.0...0.3.0)
+
 ## [0.2.0](https://github.com/buluma/ansible-role-crun/tree/0.2.0) (2024-01-03)
 
 [Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.1.2...0.2.0)
