@@ -2,7 +2,17 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-crun/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.3.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.4.0...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#6](https://github.com/buluma/ansible-role-crun/issues/6)
+- Update action [\#5](https://github.com/buluma/ansible-role-crun/issues/5)
+- rebuild action [\#4](https://github.com/buluma/ansible-role-crun/issues/4)
+
+## [0.4.0](https://github.com/buluma/ansible-role-crun/tree/0.4.0) (2024-01-05)
+
+[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.3.0...0.4.0)
 
 **Merged pull requests:**
 
