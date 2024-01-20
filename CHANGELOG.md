@@ -10,6 +10,10 @@
 - Update action [\#5](https://github.com/buluma/ansible-role-crun/issues/5)
 - rebuild action [\#4](https://github.com/buluma/ansible-role-crun/issues/4)
 
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#10](https://github.com/buluma/ansible-role-crun/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.4.0](https://github.com/buluma/ansible-role-crun/tree/0.4.0) (2024-01-05)
 
 [Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.3.0...0.4.0)
