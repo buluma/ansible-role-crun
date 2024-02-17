@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-crun/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.5.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#11](https://github.com/buluma/ansible-role-crun/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.5.0](https://github.com/buluma/ansible-role-crun/tree/0.5.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.4.0...0.5.0)
