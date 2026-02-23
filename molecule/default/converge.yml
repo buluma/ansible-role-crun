@@ -1,8 +1,8 @@
 ---
-  - name: converge | all
-    hosts: all
-    remote_user: root
-    become: true
-    gather_facts: true
-    roles:
-      - role: buluma.crun
+- name: converge | all
+  hosts: all
+  remote_user: root
+  become: true
+  gather_facts: true
+  roles:
+  - role: buluma.crun

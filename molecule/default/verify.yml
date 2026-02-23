@@ -1,14 +1,14 @@
 ---
-  - name: Verify | all
-    hosts: all
-    remote_user: root
-    become: true
-    tasks:
-      - name: crun --version
-        ansible.builtin.command:
-          cmd: crun --version
-        register: result
-        changed_when: result is not succeeded
+- name: Verify | all
+  hosts: all
+  remote_user: root
+  become: true
+  tasks:
+  - name: crun --version
+    ansible.builtin.command:
+      cmd: crun --version
+    register: result
+    changed_when: result is not succeeded
 
-      - name: print version
-        ansible.builtin.debug: var=result
+  - name: print version
+    ansible.builtin.debug: var=result
