@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-crun/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-crun/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.5.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-crun/compare/0.5.0...26.6.0)
 
 **Merged pull requests:**
 
